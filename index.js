@@ -20,7 +20,7 @@ function ternaryCheckCity(city){
 function switchOnCharmFromTip(tip){
   // Write your code here!
   switch(tip) {
-    case 'generous':
+   case 'generous':
       return 'Thank you so much.'
       break;
       case 'not as generous':
@@ -28,6 +28,9 @@ function switchOnCharmFromTip(tip){
         break;
         default:
         return 'Bye.'
-        break;
+        break; 
   }
 }
+
+const [num1,num2,num3,num4] = [2,31,19,5];
+const arr = [1,10.11,9,18,20,12,2];
